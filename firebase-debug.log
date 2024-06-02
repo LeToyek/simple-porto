@@ -1,0 +1,44 @@
+[debug] [2024-06-02T08:21:11.713Z] ----------------------------------------------------------------------
+[debug] [2024-06-02T08:21:11.715Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\maula\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2024-06-02T08:21:11.716Z] CLI Version:   12.4.8
+[debug] [2024-06-02T08:21:11.716Z] Platform:      win32
+[debug] [2024-06-02T08:21:11.716Z] Node Version:  v18.17.0
+[debug] [2024-06-02T08:21:11.717Z] Time:          Sun Jun 02 2024 15:21:11 GMT+0700 (Western Indonesia Time)
+[debug] [2024-06-02T08:21:11.717Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-02T08:21:11.726Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-02T08:21:11.726Z] > authorizing via signed-in user (maulanatoyek@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\projects\simple-porto
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-06-02T08:21:21.500Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-06-02T08:21:22.455Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-06-02T08:21:22.456Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project porto-3872d (porto) 
+[info] 
+=== Hosting Setup
+[debug] [2024-06-02T08:21:55.348Z] SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at findDependency (C:\Users\maula\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\utils.js:178:23)
+    at getNuxtVersion (C:\Users\maula\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\nuxt\utils.js:9:45)
+    at discover (C:\Users\maula\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\nuxt2\index.js:24:52)
+    at async discover (C:\Users\maula\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\index.js:46:32)
+    at async doSetup (C:\Users\maula\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\index.js:22:11)
+    at async init (C:\Users\maula\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:41:9)
+[error] 
+[error] Error: An unexpected error has occurred.
