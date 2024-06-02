@@ -28,8 +28,8 @@ export class MarketPlaceComponent implements OnInit {
    list = [{
       image: 'assets/images/nft/img-03.jpg',
       like: '19.29',
-      title: "Creative Filtered Portrait",
-      sub_title: "Photography",
+      title: "Greeny",
+      sub_title: "Mobile App",
       highest: '75.3',
       eth: '67.36',
       category: 'artWork'
@@ -37,8 +37,8 @@ export class MarketPlaceComponent implements OnInit {
     {
       image: 'assets/images/nft/img-02.jpg',
       like: '23.63',
-      title: "The Chirstoper",
-      sub_title: "Music",
+      title: "Simak Gizi",
+      sub_title: "Mobile App",
       highest: '412.30',
       eth: '394.7',
       category: 'music'
@@ -46,8 +46,8 @@ export class MarketPlaceComponent implements OnInit {
     {
       image: 'assets/images/nft/gif/img-4.gif',
       like: '15.93',
-      title: "Evolved Reality",
-      sub_title: "Video",
+      title: "Pita ID",
+      sub_title: "Mobile App, Machine Learning",
       highest: '2.75',
       eth: '3.167',
       category: 'games'

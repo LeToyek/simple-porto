@@ -39,8 +39,8 @@
               "src/styles.scss",
               "node_modules/@ctrl/ngx-emoji-mart/picker.css",
               "node_modules/swiper/swiper-bundle.css",
-              "src/assets/scss/config/creative/bootstrap.scss",
-              "src/assets/scss/config/creative/app.scss",
+              "src/assets/scss/config/galaxy/bootstrap.scss",
+              "src/assets/scss/config/galaxy/app.scss",
               "src/assets/scss/icons.scss"
             ],
             "scripts":[],
