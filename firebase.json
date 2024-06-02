@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "source": ".",
     "public": "dist/velzon",
     "ignore": [
       "firebase.json",
